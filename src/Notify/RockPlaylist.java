@@ -1,4 +1,8 @@
 package Notify;
 
-public class RockPlaylist {
+import java.util.ArrayList;
+import java.util.List;
+
+public class RockPlaylist extends Playlist {
+    List<String> rockSongs=new ArrayList<String>();
 }

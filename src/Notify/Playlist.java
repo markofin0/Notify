@@ -13,7 +13,7 @@ public void addSong(Song song){
 public void removeSong(Song song){
     songs.remove(song.title);
 }
-public void playAllSings(){
+public void playAllSongs(){
     for (int i = 0; i < songs.size() - 1; i++){
         System.out.println(songs);
     }
