@@ -1,6 +1,6 @@
 package Notify;
 
-public class Song {
+public class Song { // song class that is the bluebrint of a Song object with attributes title, artist, and duration with setters and getters
     private String title;
     String artist;
     double duration;
