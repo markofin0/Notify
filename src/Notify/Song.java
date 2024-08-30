@@ -1,10 +1,10 @@
 package Notify;
 
 public class Song {
-    String title;
+    private String title;
     String artist;
     double duration;
-    public String getTitle(){
+    public String getTitle(String addSong){
         return title;
     }
     public String getArtist(){
